@@ -1,3 +1,4 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <random>
 #include <vector>
@@ -12,13 +13,11 @@ std::cout << Plst[i];
 
 int main() {
 // Write C++ code here
-std::cout << "прога работает\n";
-
-text
+std::cout << "программа работает\n";
 
 std::random_device rd;
 std::string pswrd = "";
-std::cout << "генератор криптографически-подобного пароля.\nВведи желаемое количество символов (4 или больше): ";
+std::cout << "генератор криптографического(лол) пароля.\nВведите желаемое количество символов (4 или больше): ";
 
 int usrinp;
 std::cin >> usrinp;
@@ -37,7 +36,7 @@ std::vector<std::uniform_int_distribution<int>> dists = { //dist of different sy
     std::uniform_int_distribution<int> num_distrib(48, 57);//numbers
     std::uniform_int_distribution<int> upcase_distrib(65, 90);//uppercase  
     std::uniform_int_distribution<int> lowcase_distrib(97, 122);//lowercase
-    std::uniform_int_distribution<int> ascii_distrib(33, 126);//full askii
+    std::uniform_int_distribution<int> ascii_distrib(33, 126);//full askii range
 
 int iterator=0;
 while (iterator<pswrdnum){
