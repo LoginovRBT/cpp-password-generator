@@ -1,4 +1,3 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <random>
 #include <vector>
@@ -12,7 +11,7 @@ std::cout << Plst[i];
 }
 
 int main() {
-// Write C++ code here
+
 std::cout << "программа работает\n";
 
 std::random_device rd;
